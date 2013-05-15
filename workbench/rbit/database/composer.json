@@ -1,0 +1,20 @@
+{
+    "name": "rbit/database",
+    "description": "Service Provider for MongoDB",
+    "authors": [
+        {
+            "name": "Roberto Butti",
+            "email": "roberto.butti@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Rbit\\Database": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
