@@ -17,11 +17,9 @@ web1:
     - zip
     - pdo_mysql
     - mcrypt
+    - mongo
     - eaccelerator
     - memcached
-  before_deploy:
-    - "php artisan migrate:install"
-    - "php artisan migrate"
   after_deploy:
     - "rm -f app/storage/cache/*"
     - "rm -f app/storage/views/*"
